@@ -1,0 +1,112 @@
+Host: clinli.ru
+Date: 2023-05-09 06:21:12
+Array
+(
+    [update_id] => 860963132
+    [message] => Array
+        (
+            [message_id] => 64553
+            [from] => Array
+                (
+                    [id] => 525697558
+                    [is_bot] => 
+                    [first_name] => Ilya
+                    [username] => i_mirkin
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 525697558
+                    [first_name] => Ilya
+                    [username] => i_mirkin
+                    [type] => private
+                )
+
+            [date] => 1683602472
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+----------
+Host: clinli.ru
+Date: 2023-05-09 06:21:16
+Array
+(
+    [update_id] => 860963133
+    [message] => Array
+        (
+            [message_id] => 64557
+            [from] => Array
+                (
+                    [id] => 525697558
+                    [is_bot] => 
+                    [first_name] => Ilya
+                    [username] => i_mirkin
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 525697558
+                    [first_name] => Ilya
+                    [username] => i_mirkin
+                    [type] => private
+                )
+
+            [date] => 1683602476
+            [text] => Я согласен с правилами
+        )
+
+)
+
+----------
+Host: clinli.ru
+Date: 2023-05-09 06:21:20
+Array
+(
+    [update_id] => 860963134
+    [message] => Array
+        (
+            [message_id] => 64559
+            [from] => Array
+                (
+                    [id] => 525697558
+                    [is_bot] => 
+                    [first_name] => Ilya
+                    [username] => i_mirkin
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 525697558
+                    [first_name] => Ilya
+                    [username] => i_mirkin
+                    [type] => private
+                )
+
+            [date] => 1683602479
+            [web_app_data] => Array
+                (
+                    [button_text] => Я уже оплати
+                    [data] => {"answer":"Оплата произведена: qwerqwreewq"}
+                )
+
+        )
+
+)
+
+----------

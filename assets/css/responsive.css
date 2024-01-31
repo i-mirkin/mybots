@@ -1,0 +1,233 @@
+@media only screen and (max-height: 650px) {
+	.carousel.carousel-slider .carousel-item h2 {
+		font-size: 40px;
+		line-height: 1.2;
+		margin: 0 0 1.2rem 0;
+	}
+	.bx-breadcrumb {
+		margin-top: 2rem;
+	}
+}
+
+@media only screen and (min-width: 1201px) {
+	
+}
+
+
+@media only screen and (min-width: 993px) {
+.blog-list .row.ui-mediabox  .col:nth-child(1) {
+	padding-right: 10px;	
+}
+.blog-list .row.ui-mediabox  .col:nth-child(2) {
+	padding-left: 10px;	
+}
+.desktop-vertical-centered {
+	padding-top: 0!important;
+	padding-bottom: 0!important;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.pagetitle{
+    font-size: 37px;
+    line-height: 1;
+    margin-bottom: 50px;
+    margin-top: 1rem;
+}
+.pagetitle::after {
+	content: none;
+}
+}
+
+
+/*  >600 .m */
+@media only screen and (min-width: 601px) {
+.tests-section-test-row {
+	display: flex;
+}
+.walk_carousel .spacer-xlarge{
+	display: none;
+}
+	
+.card .card-image img {
+  max-height: 300px;
+}	
+.test-single {
+	display: inline-block;
+}
+.test-single .img-wrap{
+	max-width: 300px;
+	float: left;
+	margin-right: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+.blog-view  .img-wrap {
+    max-width: 300px;
+    float: left;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.carousel-fullscreen h1,
+.carousel-fullscreen .h1 {
+  font-weight: 800;
+	font-size: 50px;
+}
+.carousel-fullscreen h2, 
+.carousel-fullscreen .h2{
+	font-weight: 800;
+	font-size: 47px;
+}
+.carousel-fullscreen h3,
+.carousel-fullscreen .h3{
+	font-weight: 800;
+	font-size: 45px;
+}
+.carousel-fullscreen h4,
+.carousel-fullscreen .h4{
+	font-weight: 800;
+	font-size: 43px;
+}
+.carousel-fullscreen h5,
+.carousel-fullscreen .h5 {
+  font-weight: 800;
+	font-size: 35px;
+}
+
+}/*@media only screen and (min-width: 601px)*/
+
+
+@media only screen and (max-width: 1199px) {
+	.chart-square {
+		width: 690px;
+		height: 670px;
+	}
+}
+
+
+@media only screen and (max-width: 992px) {
+	.btn-navigation{
+		display: none;
+	}
+	.bg--ic1 {
+		background-image: url('/assets/images/carousel-home-01.jpg')
+	}
+	.bg--ic2 {
+		background-image: url('/assets/images/carousel-home-02.jpg')
+	}
+	.bg--ic3 {
+		background-image: url('/assets/images/carousel-home-03.jpg')
+	}
+	.chart-square {
+		width: 550px;
+		height: 560px;
+	}
+}/* @media only screen and (max-width: 992px) */
+
+
+@media only screen and (max-width: 600px) {
+	.container {
+		width: 92%;
+	}
+	.carousel.carousel-slider .spacer-xlarge {
+		margin-bottom: 50px;
+	}
+	.carousel.carousel-fullscreen .carousel-item .item-content {
+		padding: 10%;
+	}
+	.carousel.carousel-slider .carousel-item h2 {
+    font-size: 24px;
+    font-weight: 500;
+		line-height: 1.2;
+		margin: 1rem 0;
+	}
+	.carousel.carousel-slider .carousel-item h2 a {
+		font-weight: 800;
+	}
+	.carousel.carousel-slider .carousel-item h3 {
+    font-size: 20px;
+    font-weight: 500;
+		line-height: 1.2;
+		margin: 1rem 0;
+	}
+	.icon-block.block-small {
+		display: flex;
+		white-space: normal;
+		align-items: center;
+		justify-content: flex-start;
+		font-size: 0.9rem;
+	}
+	.icon-block.block-small .title {
+		white-space: normal;
+		line-height: 1.2;
+	}
+	.icon-block.block-small .icon {
+		margin-right: 15px;
+		width: auto!important;
+	}
+	
+	.common-section-prolog{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	
+	.modal .modal-content {
+    padding: 15px;
+	}
+	.modal {
+		width: calc(100% - 10px);
+    height: calc(100% - 10px);
+	}
+	
+	.chart-square {
+		width: 460px;
+		height: 490px;
+	}
+	
+}
+/* @media only screen and (max-width: 600px) */
+
+
+@media only screen and (max-width: 480px) {
+	.chart-square {
+		width: 310px;
+		height: 360px;
+	}
+	.login-area {
+		padding-top: 30px;
+	}
+	.collapsible-body {
+    padding: 1rem;
+	}
+	.padding-top-common {
+    padding-top: 80px;
+	}
+	.pagetitle {
+		margin-top: 4rem;
+	}
+	.collapsible-body .card-panel {
+		margin-left: -1rem;
+		margin-right: -1rem;
+	}
+	.icon-block.block-small {
+    display: flex;
+    white-space: normal;
+    justify-content: center;
+    font-size: 0.9rem;
+    flex-direction: column;
+    align-items: center;
+	 }
+	.icon-block.block-small .icon {
+	    margin-right: 0;
+	}
+	
+}
+/* @media only screen and (max-width: 320px) */
+
+@media only screen and (max-width: 320px) {
+	.chart-square {
+		width: 250px;
+		height: 315px;
+	}
+	
+}
+/* @media only screen and (max-width: 320px) */

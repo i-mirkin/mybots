@@ -1,0 +1,84 @@
+Array
+(
+    [update_id] => 347738147
+    [callback_query] => Array
+        (
+            [id] => 2257853820262247854
+            [from] => Array
+                (
+                    [id] => 525697558
+                    [is_bot] => 
+                    [first_name] => Ilya
+                    [username] => i_mirkin
+                    [language_code] => en
+                )
+
+            [message] => Array
+                (
+                    [message_id] => 334
+                    [from] => Array
+                        (
+                            [id] => 6182608551
+                            [is_bot] => 1
+                            [first_name] => Mindfulness 3.0
+                            [username] => mindfulness4uBot
+                        )
+
+                    [chat] => Array
+                        (
+                            [id] => 525697558
+                            [first_name] => Ilya
+                            [username] => i_mirkin
+                            [type] => private
+                        )
+
+                    [date] => 1706552912
+                    [text] => Добро пожаловать в чат-бот!
+Здесь вы научитесь...
+Мы поможнм вам...
+Для продолжения вам необходимо принять условия соглашения...
+
+Подробности на сайте
+                    [entities] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [offset] => 145
+                                    [length] => 5
+                                    [type] => text_link
+                                    [url] => https://clinli.ru/mybots/agreement/
+                                )
+
+                        )
+
+                    [reply_markup] => Array
+                        (
+                            [inline_keyboard] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => Принимаю
+                                                    [callback_data] => {"action":"agreement_accept"}
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [text] => Отказываюсь
+                                                    [callback_data] => {"action":"agreement_refuse"}
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [chat_instance] => 1401659825599225685
+            [data] => {"action":"agreement_accept"}
+        )
+
+)

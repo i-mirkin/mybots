@@ -1,0 +1,106 @@
+Добавление в группу
+==================================
+Array
+(
+    [update_id] => 575265076
+    [message] => Array
+        (
+            [message_id] => 5
+            [from] => Array
+                (
+                    [id] => 525697558
+                    [is_bot] => 
+                    [first_name] => Ilya
+                    [username] => i_mirkin
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => -1002081212925
+                    [title] => Ilya и Маша
+                    [type] => supergroup
+                )
+
+            [date] => 1702404499
+            [new_chat_participant] => Array
+                (
+                    [id] => 6776296096
+                    [is_bot] => 1
+                    [first_name] => iCanDoAnything
+                    [username] => iCanDoAnythingByClinliBot
+                )
+
+            [new_chat_member] => Array
+                (
+                    [id] => 6776296096
+                    [is_bot] => 1
+                    [first_name] => iCanDoAnything
+                    [username] => iCanDoAnythingByClinliBot
+                )
+
+            [new_chat_members] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6776296096
+                            [is_bot] => 1
+                            [first_name] => iCanDoAnything
+                            [username] => iCanDoAnythingByClinliBot
+                        )
+
+                )
+
+        )
+
+)
+
+==================================
+
+
+
+Удаление из группы 
+================================
+Array
+(
+    [update_id] => 575265074
+    [message] => Array
+        (
+            [message_id] => 4
+            [from] => Array
+                (
+                    [id] => 525697558
+                    [is_bot] => 
+                    [first_name] => Ilya
+                    [username] => i_mirkin
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => -1002081212925
+                    [title] => Ilya и Маша
+                    [type] => supergroup
+                )
+
+            [date] => 1702404426
+            [left_chat_participant] => Array
+                (
+                    [id] => 6776296096
+                    [is_bot] => 1
+                    [first_name] => iCanDoAnything
+                    [username] => iCanDoAnythingByClinliBot
+                )
+
+            [left_chat_member] => Array
+                (
+                    [id] => 6776296096
+                    [is_bot] => 1
+                    [first_name] => iCanDoAnything
+                    [username] => iCanDoAnythingByClinliBot
+                )
+
+        )
+
+)
+================================

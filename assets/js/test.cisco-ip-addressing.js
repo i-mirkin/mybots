@@ -1,0 +1,15 @@
+quizData = {
+title: 'Миннесотский многоаспектный личностный опросник  (Мужской варинат)',
+questions: [
+{number: 0, question: 'Сколько бит содержит IP-адрес?', answers: [{answer: '10', type: 'radio'}, {answer: '14', type: 'radio'}, {answer: '16', type: 'radio'}, {answer: '32', type: 'radio'}]},
+{number: 1, question: 'Какое десятичное число является эквивалентом двоичного числа 11111111?', answers: [{answer: '32', type: 'radio'}, {answer: '256', type: 'radio'}, {answer: '255', type: 'radio'}, {answer: '16', type: 'radio'}]},
+{number: 2, question: 'Какую роль в IP-адресе играет номер сети?', answers: [{answer: 'Задает сети, с которыми может связываться устройство', type: 'radio'}, {answer: 'Задает идентификатор компьютера в сети', type: 'radio'}, {answer: 'Задает адресуемый узел в подсети', type: 'radio'}, {answer: 'Задает сеть, к которой принадлежит хост-машина', type: 'radio'}]},
+{number: 3, question: 'IP-адрес хост-машины — 192.168.5.121, маска подсети — 255.255.255.248. Какой адрес имеет сеть этого хоста?', answers: [{answer: '192.169.5.120', type: 'radio'}, {answer: '192.168.5.12', type: 'radio'}, {answer: '192.169.5.121', type: 'radio'}, {answer: '192.168.5.120', type: 'radio'}]},
+{number: 4, question: 'Какая часть адреса 182.54.4.233 обозначает подсеть?', answers: [{answer: '233', type: 'radio'}, {answer: '4', type: 'radio'}, {answer: '182', type: 'radio'}, {answer: '54', type: 'radio'}]},
+{number: 5, question: 'Какая часть IP-адреса 205.129.12.5 представляет хост-машину?', answers: [{answer: '205', type: 'radio'}, {answer: '5', type: 'radio'}, {answer: '205.129', type: 'radio'}, {answer: '12,5', type: 'radio'}]},
+{number: 6, question: 'Какую роль в IP-адресе играет номер хост-машины?', answers: [{answer: 'Задает идентификатор компьютера в сети', type: 'radio'}, {answer: 'Задает адресуемый узел в подсети', type: 'radio'}, {answer: 'Задает сеть, к которой принадлежит хост-машина', type: 'radio'}, {answer: 'Задает хост-машины, с которыми может связываться устройство', type: 'radio'}]},
+{number: 7, question: 'Какая часть IP-адреса 129.219.51.18 представляет сеть?', answers: [{answer: '129', type: 'radio'}, {answer: '129.219', type: 'radio'}, {answer: '18', type: 'radio'}, {answer: '51.18', type: 'radio'}]},
+{number: 8, question: 'Если сеть класса C разделена на подсети и имеет маску 255.255.255.192, то какое максимальное количество доступных подсетей можно создать?', answers: [{answer: '4', type: 'radio'}, {answer: '8', type: 'radio'}, {answer: '6', type: 'radio'}, {answer: '2', type: 'radio'}]},
+{number: 9, question: 'Что такое подсеть?', answers: [{answer: 'Небольшая сеть, которая содержит базу данных всех MAC-адресов в сети', type: 'radio'}, {answer: 'Небольшая часть крупной сети', type: 'radio'}, {answer: 'Небольшая сеть, работающая в пределах более крупной сети и позволяющая объединить разные типы устройств', type: 'radio'}, {answer: 'Часть сети, которая является зависимой системой по отношению к главной сети', type: 'radio'}]},
+]
+}
